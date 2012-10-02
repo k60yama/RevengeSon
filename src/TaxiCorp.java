@@ -1,15 +1,17 @@
 
 public class TaxiCorp {
 	
-	public TaxiDriver pickUp(){
+	public TaxiDriver pickUp(Integer index){
 		
-		//ƒhƒ‰ƒCƒo[ƒIƒuƒWƒFƒNƒg
+		//ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã‚’é…åˆ—åŒ–
 		TaxiDriver[] drivers = {
 			new MasterDriver(),
 			new PonkotsuDriver()
 		};
 		
-		//ƒCƒ“ƒfƒbƒNƒXİ’è
+		return drivers[index];
+		/*
+		//ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹è¨­å®š
 		int driverIndex;
 		if(Math.random() == 1){
 			driverIndex = 1;
@@ -18,5 +20,7 @@ public class TaxiCorp {
 		}
 		
 		return drivers[driverIndex];
+		*/
 	}
+	
 }

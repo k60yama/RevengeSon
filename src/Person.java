@@ -1,15 +1,15 @@
 
 public class Person {
 
-	//–¼‘O
+	//åå‰
 	private String name;
 	
-	//ƒRƒ“ƒXƒgƒ‰ƒNƒ^
+	//ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿
 	public Person(String name){
 		this.name = name;
 	}
 
-	//ƒƒ\ƒbƒh
+	//åå‰å–å¾—
 	public String getName(){
 		return this.name;	
 	}
